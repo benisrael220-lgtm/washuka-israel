@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washuka & Israel: Our Love Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="music-player">
+        <audio controls autoplay loop>
+             <source src="mario-let-me-love-you.mp3" type="audio/mpeg"> 
+             Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <header>
+        <h1>Washuka & Israel: Our Never-Ending Story</h1>
+        <p class="since-text">Since 2023 ✨</p>
+    </header>
+
+    <main>
+        <section id="affirmation" class="fade-in">
+            <h2>Our Love Story: Never Given Up On</h2>
+            <p class="story-text">This journey began in 2023, and since then, every moment has woven into a beautiful, unbreakable story. It's a love that has never been given up on—a true reflection of patience, commitment, and joy.</p>
+            
+            <div class="affirmation-box">
+                <p class="affirmation-quote">"You are my favorite hello and my hardest goodbye. With you, every day feels like an adventure, and every challenge is easier to face. Thank you for being my constant, my strength, and the reason for my biggest smiles. I promise to keep choosing you, now and always. Our love is a masterpiece, and we are the artists."</p>
+                <p class="signature">💕 Forever and always, Your [Israel/Washuka]</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="fade-in">
+            <h2>📸 Our Favorite Moments</h2>
+            <div class="photo-grid">
+                <img src="IMG-20231217-WA0000.jpg" alt="Washuka and Israel smiling outside">
+                <img src="IMG_20240411_193435_741.jpg" alt="Couple hugging on the street">
+                <img src="IMG_20231130_071735_638.jpg" alt="Writing in the sand at the beach">
+                <img src="Screenshot_20240106-001029.png" alt="Video call screenshot 1">
+                <img src="Locket_1712843891030_17.jpg" alt="Couple on a couch with phones">
+                <img src="IMG_20231124_033931_329.jpg" alt="Video call screenshot 2">
+                <img src="IMG_4001.HEIC" alt="Group selfie">
+                <img src="Snapchat-1172756361.jpg" alt="Blurred close-up selfie">
+                <img src="Screenshot_20231217-043026.png" alt="Video call screenshot 3">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 - Present | Washuka & Israel</p>
+    </footer>
+
+    <script>
+        // Simple JavaScript to animate sections on load
+        document.querySelectorAll('.fade-in').forEach((el, index) => {
+            el.style.animationDelay = `${index * 0.5}s`;
+        });
+    </script>
+</body>
+</html>
+
